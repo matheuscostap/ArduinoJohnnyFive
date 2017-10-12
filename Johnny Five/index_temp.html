@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World Arduino JS</title>
+	<!--
+	<script type="text/javascript">
+		var refresh = function(){
+			var xhttp = new XMLHttpRequest();
+			
+			xhttp.onreadystatechange = function() {
+			    if (this.readyState == 4 && this.status == 200) {
+			       document.getElementById("temp").innerHTML = xhttp.responseText;
+			    }
+			};
+			xhttp.open("GET", "localhost:3000/getTemperatura", true);
+			xhttp.send();
+		}
+	</script>-->
+</head>
+<body>
+	<h1>Temperatura: </h1>
+	<h2 id="temp">???</h2>
+	<a href="/getTemperatura">Atualizar</a>
+</body>
+</html>	
